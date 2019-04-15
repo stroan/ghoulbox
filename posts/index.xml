@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Game tech devblog</title>
+    <link>http://ghoulbox.net/posts/</link>
+    <description>Recent content in Posts on Game tech devblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ghoulbox.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LustEngine Part 1: Project Intro</title>
+      <link>http://ghoulbox.net/posts/2019/04/lustengineprojectintro/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://ghoulbox.net/posts/2019/04/lustengineprojectintro/</guid>
+      <description>I&amp;rsquo;m writing a game engine. This isn&amp;rsquo;t usually a good idea if you want to make games, and finish them. But I&amp;rsquo;ve got a bunch of experience working on games and games middleware, and I enjoy working on that part of the stack - so this is a process I find intrinsicly valuable. If your goal is to make a game Don&amp;rsquo;t Do What Donny Don&amp;rsquo;t Does.
+What is LustEngine Lust is Love2D in Rust (filtered through my own preferences and biases).</description>
+    </item>
+    
+  </channel>
+</rss>

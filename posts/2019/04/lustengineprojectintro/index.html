@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><title>Ghoulbox - LustEngine Part 1: Project Intro</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="/css/site.css"><body>
+        <div id="root_container"><div id="header_image_container"><a href="/"><img src="/img/avatar.png"/></a></div><div id="content">
+
+<h1 id="post_title">LustEngine Part 1: Project Intro</h1>
+
+
+
+<p>I&rsquo;m writing a game engine. This isn&rsquo;t usually a good idea if you want to make games, and finish them. But I&rsquo;ve got a bunch of experience working on games and
+games middleware, and I enjoy working on that part of the stack - so this is a process I find intrinsicly valuable. If your goal is to make a game Don&rsquo;t Do
+What Donny Don&rsquo;t Does.</p>
+
+<h3 id="what-is-lustengine">What is LustEngine</h3>
+
+<p><strong>Lust</strong> is <strong>L</strong>ove2D in R<strong>ust</strong> (filtered through my own preferences and biases). If you want Love2D in Rust, faithful to the original philosophies of Love2D, <a href="https://github.com/ggez/ggez/">ggez</a> is solid.</p>
+
+<h3 id="my-goals">My Goals</h3>
+
+<ul>
+<li><strong>Learn Rust</strong> - I&rsquo;ve worked in C++ and C#, the two main game programming langauges, both professionally and at home. I enjoy them both. Rust is the new
+shiny, and the sales pitch is very compelling. I have no idea how well it lives up to that pitch, or how well it suits making games. I want to find out.</li>
+<li><strong>Avoid Unsafe Rust</strong> - This is a guideline I decided upon after initially diving head first in to unsafe Rust in order to help write Rust as if I were writing
+C. Until I&rsquo;m comfortable writing Rust using the safe primitives provided by the language, I&rsquo;m going to do my best to avoid unsafe code.</li>
+<li><strong>Enjoyable to Use</strong> - I&rsquo;ve used a decent number of game engines and frameworks, but nothing has ever felt as good as Love2D for making small games. I want
+to construct APIs which are similarly quick and easy to use. This is not to say that the API will look anything like Love2D&rsquo;s - it almost certainly won&rsquo;t.</li>
+<li><strong>A Better Workflow</strong> - One of my biggest bugbears is awkward time consuming workflows, that distract me, that consume time, that make making games less
+fun. I want to make sure that the tooling and workflow makes it as quick and painless as I can make it to get my game logic where I want to be.</li>
+<li><strong>State Rewinding/Replaying</strong> - This is the main tool I want to bring to bear in creating a better workflow. So much time goes down a sink of &ldquo;Get to place
+where unexpected behaviour happens, examine outputs, relaunch game and try a different interaction&rdquo;. Maybe this is indicative of other larger workflow
+issues, but I really want to be able to quickly reset to the point before I experienced unexpected behaviour.</li>
+<li><strong>Determinism</strong> - Building on top of being able to rewind gamestate, I&rsquo;d like to be able to reconstruct play states reliable from saved user input sessions.
+This would allow me to record a sample play session, make changes to the code, and quickly see if behaviour changes.</li>
+<li><strong>Target small games</strong> - I have no intentions of this engine competing with any commercial or established open source offering in terms of performance. I will
+happily sacrifice speed in order to facilitate more pleasant development workflows.</li>
+</ul>
+
+<h3 id="these-blog-posts-and-a-disclaimer">These Blog Posts And A Disclaimer</h3>
+
+<p>So I&rsquo;m making some progress with this project. And I&rsquo;m starting to gain insight in how and why to approach structuring code for Rust. There is a lot of trial
+and error, so I&rsquo;m going to document my learnings here and hopefully they&rsquo;ll be of use to others on similar journeys.</p>
+
+<p>The massive disclaimer: <strong>I am figuring this out as I go along</strong>. I make no guarantee that I&rsquo;m doing any of this the best way. But documenting my experiences may
+be useful.</p>
+
+
+            </div>
+        </div></body>
+</html>
